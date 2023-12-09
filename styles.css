@@ -1,75 +1,37 @@
-/* Add this CSS code to your existing styles.css or in a new stylesheet */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url('bgimg2.jpg');
-    background-size: cover;
-}
-
 header {
     background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-}
-
-#logo {
-    max-height: 80px;
-    margin-right: 480px;
-}
-
-h1 {
-    text-align: center;
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    padding: 1em 0;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    margin-left: auto; /* Move the nav items to the right */
-}
-
-button {
     background-color: #000000;
-    color: #fff;
-    border: none;
-    padding: 0.5em 1em;
-    margin: 0 1em;
-    cursor: pointer;
+    text-align: center;
 }
 
-button:hover {
-    background-color: #c50000;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
 }
 
 footer {
     background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    position: fixed;
+    padding: 1em 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-h2 {
-    text-align: center;
-    color: azure;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30PX;
-
-}
-
-p {
-    text-align: center;
-    color: azure;
-    font-family: initial;
-    font-size: 24px;
 }
